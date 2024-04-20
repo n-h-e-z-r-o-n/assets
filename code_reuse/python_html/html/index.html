@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receive and Display Data</title>
+    <link rel="stylesheet" type="text/css" href=".\styles.css" />
+     <style id="dynamic-css"></style>
+
+</head>
+<body>
+    <h1>Receive and Display Data</h1>
+    <form id="dataForm">
+        <label for="data">Enter Data:</label><br>
+        <input type="text" id="data" name="data"><br>
+        <button type="button" onclick="sendData()">Send Data</button>
+    </form>
+    <p id="displayWidget">sdsd</p>
+
+    <script>
+
+        //---------------  Server Communication --code block-----------------------------------------
+
+        function sendData() {
+            var formData = new FormData(document.getElementById('dataForm'));
+            var requestData = { 'data': formData.get('data') };
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'http://localhost:8080', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        displayData(response.processed_data);
+                    } else {
+                        displayData(xhr.status);
+
+                    }
+                }
+            };
+            xhr.send(JSON.stringify(requestData));
+        }
+
+        function displayData(data) {
+             document.getElementById('displayWidget').innerHTML = 'Processed Data: ' + data ;
+        }
+
+
+        //--------------- auto refresh CSS --code block-----------------------------------------
+        function reloadCSS() {
+          const link = document.querySelector('link[rel="stylesheet"]');
+          const url = new URL(link.href);
+          url.searchParams.set('v', Math.random()); // Or use Date.now() for timestamps
+          link.href = url.toString();
+        }
+
+
+        reloadCSS();
+
+
+        setInterval(reloadCSS, 1000);
+
+    </script>
+</body>
+</html>
