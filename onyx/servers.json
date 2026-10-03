@@ -1,0 +1,56 @@
+[
+  {
+    "name": "VidSrc",
+    "key": "vidsrc",
+    "movieTemplate":  "https://vidsrc.sh/embed/movie/{showId}/",
+    "tvTemplate": "https://vsembed.ru/embed/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+  {
+    "name": "VidKing",
+    "key": "vidking",
+    "movieTemplate": "https://www.vidking.net/embed/movie/{showId}",
+    "tvTemplate": "https://www.vidking.net/embed/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+  {
+    "name": "XPass",
+    "key": "xpass",
+    "movieTemplate": "https://play.xpass.top/e/movie/{showId}",
+    "tvTemplate": "https://play.xpass.top/e/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+
+  {
+    "name": "primesrc",
+    "key": "primesrc",
+    "movieTemplate": "https://primesrc.me/embed/movie?tmdb={showId}",
+    "tvTemplate": "https://primesrc.me/embed/tv?tmdb={showId}&season={seasonNo}&episode={episodeNo}"
+  },
+  
+  {
+    "name": "vaplayer",
+    "key": "vaplayer",
+    "movieTemplate": "https://vaplayer.ru/embed/movie/{showId}",
+    "tvTemplate": "https://vaplayer.ru/embed/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+  
+  {
+    "name": "vidfast",
+    "key": "vidfast",
+    "movieTemplate": "https://vidfast.vc/movie/{showId}",
+    "tvTemplate": "https://vidfast.vc/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+  
+  {
+    "name": "vidup",
+    "key": "vidup",
+    "movieTemplate": "https://vidup.to/movie/{showId}",
+    "tvTemplate": "https://vidup.to/tv/{showId}/{seasonNo}/{episodeNo}"
+  },
+  {
+    "name": "vidcore",
+    "key": "vidcore",
+    "movieTemplate": "https://vidcore.io/movie/{showId}",
+    "tvTemplate": "https://vidcore.io/tv/{showId}/{seasonNo}/{episodeNo}"
+  }
+  
+ 
+]
