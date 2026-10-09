@@ -1,6 +1,6 @@
 [
   {
-    "name": "megaplay",
+    "name": "HD-1",
     "key": "megaplay",
     "type": "embed",
     "dub_link":  "https://echo-anime.vercel.app/api/v2/playembed/https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/dub",
