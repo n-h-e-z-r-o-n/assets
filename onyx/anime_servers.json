@@ -3,7 +3,7 @@
     "name": "megaplay",
     "key": "megaplay",
     "type": "embed"
-    "dub":  "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/dub",
-    "sub": "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/sub"
+    "dub_link":  "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/dub",
+    "sub_link": "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/sub"
   }
 ]
