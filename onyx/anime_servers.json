@@ -1,0 +1,8 @@
+[
+  {
+    "name": "megaplay",
+    "key": "megaplay",
+    "dub":  "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/dub",
+    "sub": "https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/sub"
+  }
+]

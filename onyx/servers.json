@@ -14,8 +14,8 @@
   {
     "name": "XPass",
     "key": "xpass",
-    "movieTemplate": "https://play.xpass.top/e/movie/{showId}",
-    "tvTemplate": "https://play.xpass.top/e/tv/{showId}/{seasonNo}/{episodeNo}"
+    "movieTemplate": "https://play.xpass.top/e/movie/{showId}?autostart=true",
+    "tvTemplate": "https://play.xpass.top/e/tv/{showId}/{seasonNo}/{episodeNo}?autostart=true"
   },
 
   {
@@ -24,21 +24,21 @@
     "movieTemplate": "https://primesrc.me/embed/movie?tmdb={showId}",
     "tvTemplate": "https://primesrc.me/embed/tv?tmdb={showId}&season={seasonNo}&episode={episodeNo}"
   },
-  
+
   {
     "name": "vaplayer",
     "key": "vaplayer",
     "movieTemplate": "https://vaplayer.ru/embed/movie/{showId}",
     "tvTemplate": "https://vaplayer.ru/embed/tv/{showId}/{seasonNo}/{episodeNo}"
   },
-  
+
   {
     "name": "vidfast",
     "key": "vidfast",
     "movieTemplate": "https://vidfast.vc/movie/{showId}",
     "tvTemplate": "https://vidfast.vc/tv/{showId}/{seasonNo}/{episodeNo}"
   },
-  
+
   {
     "name": "vidup",
     "key": "vidup",
@@ -51,6 +51,6 @@
     "movieTemplate": "https://vidcore.io/movie/{showId}",
     "tvTemplate": "https://vidcore.io/tv/{showId}/{seasonNo}/{episodeNo}"
   }
-  
- 
+
+
 ]
