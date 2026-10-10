@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "developerAccess": {
+    "pin": "0000",
+    "providers": {
+      "moviesTv": {
+        "enabled": true,
+        "url": "https://github.com/n-h-e-z-r-o-n/assets/raw/refs/heads/main/onyx/servers.json"
+      },
+      "anime": {
+        "enabled": true,
+        "url": "https://github.com/n-h-e-z-r-o-n/assets/raw/refs/heads/main/onyx/anime_servers.json"
+      },
+      "liveTv": {
+        "enabled": true,
+        "url": "https://iptv-org.github.io/iptv/index.m3u"
+      }
+    }
+  }
+}
