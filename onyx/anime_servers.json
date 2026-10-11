@@ -5,5 +5,12 @@
     "type": "embed",
     "dub_link":  "https://echo-anime.vercel.app/api/v2/playembed/https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/dub",
     "sub_link": "https://echo-anime.vercel.app/api/v2/playembed/https://megaplay.buzz/stream/ani/{AniListID}/{episodeNo}/sub"
-  }
+  },
+  {
+    "name": "HD-2",
+    "key": "HD-2",
+    "type": "embed",
+    "dub_link":  "https://echo-anime.vercel.app/api/v2/playembed/https://babastream.top/embed/{AniListID}/{episodeNo}/dub",
+    "sub_link": "https://echo-anime.vercel.app/api/v2/playembed/https://babastream.top/embed/{AniListID}/{episodeNo}/sub"
+  },
 ]
