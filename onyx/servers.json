@@ -8,8 +8,8 @@
   {
     "name": "VidKing",
     "key": "vidking",
-    "movieTemplate": "https://www.vidking.net/embed/movie/{showId}",
-    "tvTemplate": "https://www.vidking.net/embed/tv/{showId}/{seasonNo}/{episodeNo}"
+    "movieTemplate": "https://embedmaster.link/movie/{showId}?autoplay=on",
+    "tvTemplate": "https://embedmaster.link/tv/{showId}/{seasonNo}/{episodeNo}?autoplay=on"
   },
   {
     "name": "XPass",
